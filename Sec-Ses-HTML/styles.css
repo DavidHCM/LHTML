@@ -1,0 +1,70 @@
+/*
+body
+{
+    background: saddlebrown; Normalmente el codigo de color esta en hexadecimal
+    color: whitesmoke;
+    font-size:50px;
+    font-weight: bolder;  Indica el tamano de la letra pero de su anchura
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+    Los div son bloques:
+
+    Las clases nos sirven para incluir los divs donde separamos cada parte que haecmos en un apartado.
+
+    Margins donde posicionamos un margen en una cierta orientacion
+
+    Para centrar tengo que tener un display block donde me ayuda a situar, tambien un width para tenerlo en control, tener el margin en left y right en auto
+
+    El padding es darle estilo a ciertos elementos
+
+    flexbox es como posiciona cosas donde tu quieras
+
+*/
+
+.main
+{
+    margin-top: 300px;
+}
+
+.main-img
+{
+    display: block;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-text
+{
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+    line-height: 24px;
+    padding: 10px 30px; /* Con este pagding el primer elemento es el de arriba y abajo, y el otro es de izquierda y derecha*/
+    border-color: #dfe1e5;
+    border-radius: 24px;
+
+}
+
+.nav-wrapper
+{
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: #dfe1e5;
+    border: none;
+    padding: 8px 16px; /* Con este pagding el primer elemento es el de arriba y abajo, y el otro es de izquierda y derecha*/
+    border-radius: 4px;
+    font-size: 14px;
+}
